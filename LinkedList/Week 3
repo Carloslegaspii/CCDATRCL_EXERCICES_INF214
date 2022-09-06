@@ -1,0 +1,34 @@
+import java.util.LinkedList;
+
+class Main {
+    public static void main(String[] args) {
+
+        // 1. 
+        LinkedList<String> Playlist = new LinkedList<>();
+
+        // 2.
+        Playlist.add("Lost");
+        Playlist.add("White Ferrari");
+        Playlist.add("chanel");
+        Playlist.add("nights");
+        Playlist.add("Ivy");
+
+        // 3.
+        Playlist.addFirst("Nikes");
+
+        // 4.
+        Playlist.addLast("Be Yourself");
+
+        // 5.
+        System.out.println(Playlist.get(0));
+
+        // 6.
+        Playlist.set(6, "Godspeed");
+
+        // 7.
+        Playlist.remove(0);
+
+        // 8.
+        System.out.println("Frank ocean's: " + Playlist);
+    }
+}
